@@ -11,7 +11,7 @@ class HelloWorld extends Component {
 
     render() {
         return <div className="HelloWorld">{this.state.greeting} {this.state.name}<br/>
-        <button onClick={this.frenchify}>Frenchify!</button></div>
+        <button className="btn btn-primary" onClick={this.frenchify}>Frenchify!</button></div>
     }
 
     frenchify() {
